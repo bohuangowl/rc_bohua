@@ -1,4 +1,4 @@
-﻿# AI 使用说明（AI Coding 作业：API 通知系统设计与实现）
+# AI 使用说明（AI Coding 作业：API 通知系统设计与实现）
 
 ## 1. AI 提供的关键帮助
 
