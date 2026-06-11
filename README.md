@@ -358,6 +358,8 @@ APINotifyService/
 
 │   ├── task.py                 # 数据模型 + 内存队列（线程安全）
 
+│   ├── deliver.py              # 供应商路由 + 投递 Worker
+
 │   └── config.py               # 配置加载（供应商配置等）
 
 ├── config/
