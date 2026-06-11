@@ -1,0 +1,29 @@
+{
+  "ad_system": {
+    "description": "Ad system notifications",
+    "url": "https://ad-platform.example.com/notify",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Source": "internal-notify"
+    }
+  },
+  "crm_system": {
+    "description": "CRM system notifications",
+    "url": "https://crm.example.com/api/webhook",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer crm-token-placeholder"
+    }
+  },
+  "inventory_system": {
+    "description": "Inventory system notifications",
+    "url": "https://inventory.example.com/stock/update",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Api-Key": "inventory-key-placeholder"
+    }
+  }
+}
